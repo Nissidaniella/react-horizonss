@@ -36,9 +36,8 @@
   color: red;
 }
 
-body{
-    background-color: rgb(0, 0, 0);
-   
+body {
+  background-color: rgb(0, 0, 0);
 }
 
 .page1 {
@@ -257,6 +256,38 @@ h1 {
   margin-left: 35px;
 }
 
-.line{
-    border: 2px solid red; margin-top: 100px;
+.line {
+  border: 2px solid red;
+  margin-top: 100px;
+}
+
+.page3 {
+  height: 250px;
+  background-color: rgb(2, 7, 29);
+  width: 1500px;
+  margin-left: 35px;
+  padding-top: 20px;
+}
+
+.page3 .col-md-12{
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.row2{
+  background-color:transparent;height: 200px; width:1412px;margin-left: 35px; border: 2px solid #989797; border-radius: 10px; margin-top: 20px;margin-bottom: -80px;
+}
+
+.col-md-2 .glyphicon{
+  background-color: rgb(223, 31, 63) ; height: 100px;width: 100px; padding-left: 20px; padding-top: 18px; font-size: 63px; border-radius: 10px;color: black;margin-left: 190px;margin-top: -40px;
+}
+
+.col-md-2 p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:  #989797;
+   margin-top: 10px;
+   margin-left:240px ;
 }
