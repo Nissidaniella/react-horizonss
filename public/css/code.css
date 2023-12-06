@@ -409,3 +409,85 @@ h1 {
   border-top-right-radius: 50px;
   border-bottom-left-radius:50px;
 }
+
+.card .one{
+  width: 1410px;margin-left: 16px; margin-top: 80px; height: 400px;
+}
+
+.card .hh{
+  text-align: center; color: #f4f3f3; padding-top: 65px;
+}
+
+.card .btn{
+  height: 80px; width: 250px; margin-left: 569px; border-radius: 10px; margin-top: 10px; background-color: transparent;
+}
+
+.card .glyphicon{
+  background-color: rgb(2, 7, 16) ; height: 60px;width: 60px; padding-left: 4px; padding-top: 9px; font-size: 40px; border-radius: 3px;color: rgb(255, 255, 255); margin-top: 5px;margin-left: -170px
+}
+
+.card p{
+  width: 190px;margin-left: 50px; margin-top: -55px; font-size: 35px; color: #989797;padding-top: -8px;
+}
+
+
+.pp{
+  font-size: 20px;
+}
+
+.me{
+  font-family: f; color:rgb(223, 31, 63); font-size: 20px
+}
+
+.card {
+  width: 1500px;
+  height: 254px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0px 15px;
+  background-color: red;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  position: relative;
+  cursor: pointer;
+  font-weight: 900;
+  transition-duration: .2s;
+  background: linear-gradient(0deg, rgb(2, 7, 16), rgb(2, 7, 16));
+  margin-top: 10px;
+}
+
+.card:before, .card:after {
+  content: '';
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+        #0000ff, #00ff00,#ffff00, #ff0000);
+  background-size: 400%;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  z-index: -1;
+  animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.card:after {
+  filter: blur(100px);
+}

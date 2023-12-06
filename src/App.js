@@ -5,7 +5,7 @@ import { RedLine } from "./RedLine";
 import { Page3 } from "./Page3";
 import { Images } from "./Images";
 import Page4 from "./Page4";
-
+import Footer from "./Footer";
 function App(props) {
   return (
     <>
@@ -31,7 +31,7 @@ function App(props) {
     text="Heart" />
     <RedLine/>
     <Page4/>
-     
+     <Footer/>
      
     </>
   );
