@@ -269,25 +269,143 @@ h1 {
   padding-top: 20px;
 }
 
-.page3 .col-md-12{
+.page3 .col-md-12 {
   display: flex;
-align-items: center;
-justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
-.row2{
-  background-color:transparent;height: 200px; width:1412px;margin-left: 35px; border: 2px solid #989797; border-radius: 10px; margin-top: 20px;margin-bottom: -80px;
+.row2 {
+  background-color: transparent;
+  height: 200px;
+  width: 1412px;
+  margin-left: 35px;
+  border: 2px solid #989797;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: -80px;
 }
 
-.col-md-2 .glyphicon{
-  background-color: rgb(223, 31, 63) ; height: 100px;width: 100px; padding-left: 20px; padding-top: 18px; font-size: 63px; border-radius: 10px;color: black;margin-left: 190px;margin-top: -40px;
+.col-md-2 .glyphicon {
+  background-color: rgb(223, 31, 63);
+  height: 100px;
+  width: 100px;
+  padding-left: 20px;
+  padding-top: 18px;
+  font-size: 63px;
+  border-radius: 10px;
+  color: black;
+  margin-left: 190px;
+  margin-top: -40px;
 }
 
-.col-md-2 p{
+.col-md-2 p {
   display: flex;
   justify-content: center;
   align-items: center;
-  color:  #989797;
-   margin-top: 10px;
-   margin-left:240px ;
+  color: #989797;
+  margin-top: 10px;
+  margin-left: 240px;
+}
+
+.p4 {
+  background-color: rgb(2, 7, 29);
+  height: 500px;
+  width: 1500px;
+  margin-left: 35px;
+  padding-top: 80px;
+  z-index: -1;
+}
+
+.p4 h1 {
+  text-align: start;
+  margin-left: 49px;
+}
+
+.p4 p {
+  text-align: start;
+  margin-left: 49px;
+}
+
+.p4 .btn {
+  height: 180px;
+  width: 150px;
+  margin-left: 49px;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: transparent;
+}
+
+.p4 .glyphicon {
+  background-color: rgb(223, 31, 63);
+  height: 60px;
+  width: 60px;
+  padding-left: 4px;
+  padding-top: 9px;
+  font-size: 40px;
+  border-radius: 3px;
+  color: rgb(2, 7, 16);
+  margin-top: 20px;
+}
+
+.p4 p{
+  width: 390px; margin-top: 20px; font-size: 15px; font-weight: bold;color: #989797;
+ 
+}
+
+.p4 button p{
+  margin-left: 40px;
+}
+
+.col2{
+  height: 343px; margin-left: 0px; width: 710px; margin-top: 27px;
+}
+
+.n1{
+    
+  height:290px;
+  background-image: url(https://softwaretestingpoint.com/wp-content/uploads/2022/03/Who-Really-Owns-the-Metaverse.jpeg);
+  background-size: cover;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius:50px;
+  width: 650px;
+  margin-left: -10px;
+  margin-top: 10px;
+  margin-bottom: -30px;
+  
+}
+
+.n2{
+  border: 2px solid red;
+  height:310px;
+  padding-top: -5p;
+  width: 670px;
+  margin-left: -19px;
+  margin-top: -300px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius:50px;
+
+  
+}
+
+.n3{
+  background-image: url(https://cdn.elearningindustry.com/wp-content/uploads/2022/12/shutterstock_2128971668.jpg);
+  background-size: cover;
+  height:168px;
+  background-color: rgb(27, 73, 73);
+  margin-top: -145px;
+  width: 280px;
+  margin-left: 400px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius:50px;
+}
+
+.n4{
+  border: 2px solid red;
+  height:190px;
+  margin-top: -180px;
+  width: 300px;
+  margin-left: 390px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius:50px;
 }

@@ -4,6 +4,7 @@ import { Page2 } from "./Page2";
 import { RedLine } from "./RedLine";
 import { Page3 } from "./Page3";
 import { Images } from "./Images";
+import Page4 from "./Page4";
 
 function App(props) {
   return (
@@ -28,6 +29,8 @@ function App(props) {
      <Images
     className="glyphicon glyphicon-heart-empty"
     text="Heart" />
+    <RedLine/>
+    <Page4/>
      
      
     </>
